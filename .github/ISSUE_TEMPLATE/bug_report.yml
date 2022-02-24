@@ -37,6 +37,13 @@ body:
       description: Which OS are you using?
     validations:
       required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What Browser and Version are you using?
+    validations:
+      required: true
   - type: dropdown
     id: priority
     attributes:
